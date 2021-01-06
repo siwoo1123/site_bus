@@ -129,7 +129,7 @@ body {
 }
 
 @media (max-width: 800px) {
-    #disqus_thread {
+    #com {
         display: none;
     }
 }

@@ -3,6 +3,10 @@ body {
     background-color: #eeeeee;
 }
 
+#sec {
+    display: none;
+}
+
 .file-upload {
     background-color: #dadada;
     border-radius: 50px;
@@ -123,13 +127,21 @@ body {
     text-align: center;
 }
 
+#busalert {
+    display: none;
+}
+
 #label-container {
     text-align: center;
     margin-top: 10px;
 }
 
+#phonealert {
+    display: none;
+}
+
 @media (max-width: 800px) {
-    #com {
-        display: none;
+    #phonealert {
+        display: block;
     }
 }
